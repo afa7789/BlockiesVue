@@ -7,7 +7,7 @@ Depending on where you're using the original blockies on vue or other project I 
 ## Usage
 
 ```ts
-    import VueBlockies from 'vueblockies'
+    import VueBlockies from 'blockies-vue'
     // Without Props
     <VueBlockies />
     // With Props
