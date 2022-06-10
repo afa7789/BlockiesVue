@@ -2,6 +2,8 @@
 
 Implementation of the [EthereumBlockies](https://github.com/ethereum/blockies) on Vue.js.
 
+Depending on where you're using the original blockies on vue or other project I was getting some errors so I just gave up and turned it entirely into a vue code.
+
 ## Usage
 
 ```ts
