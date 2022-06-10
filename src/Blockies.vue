@@ -16,7 +16,7 @@ import { defineComponent } from "vue";
     spotcolor: '#000' // each pixel has a 13% chance of being of a third color,
 */
 export default /*#__PURE__*/ defineComponent({
-	name: "VueBlockies", // vue component name
+	name: "Blockies", // vue component name
 	props: {
 		seed: String,
 		color: String, // to manually specify the icon color, default: random

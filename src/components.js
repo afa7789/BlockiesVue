@@ -1,3 +1,3 @@
-import { default as VueBlockies } from './VueBlockies.vue';
+import { default as Blockies } from './Blockies.vue';
 
-export default {VueBlockies};
+export default {Blockies};
