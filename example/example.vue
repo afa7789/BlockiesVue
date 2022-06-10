@@ -1,7 +1,7 @@
 
 <template>
 	<div id="app">
-		<VueBlockies
+		<Blockies
 			v-for="item in items"
 			:key="item"
 			:seed="item"
@@ -14,12 +14,12 @@
 <script>
 import { defineComponent } from "vue";
 // Uncomment import and local "components" registration if library is not registered globally.
-// import { VueBlockies } from '@/entry.esm'; // 'vueblockies'
+// import { Blockies } from '@/entry.esm'; // 'blockies-vue'
 
 export default defineComponent({
 	name: "Example",
 	// components: {
-	//  VueBlockies,
+	//  Blockies,
 	// }
 	data() {
 		return {

@@ -1,32 +1,17 @@
-# VueBlockies
+# Blockies Vue
 
 Implementation of the [EthereumBlockies](https://github.com/ethereum/blockies) on Vue.js.
 
 Depending on where you're using the original blockies on vue or other project I was getting some errors so I just gave up and turned it entirely into a vue code.
 
-## Usage
-
-```ts
-    import VueBlockies from 'blockies-vue'
-    // Without Props
-    <VueBlockies />
-    // With Props
-    <VueBlockies
-        :seed= 'randstring', // seed used to generate icon data, default: random
-        :color= '#dfe', // to manually specify the icon color, default: random
-        :bgcolor= '#aaa', // choose a different background color, default: random
-        :size= 15, // width/height of the icon in blocks, default: 8
-        :scale= 3, // width/height of each block in pixels, default: 4
-        :spotcolor= '#000' // each pixel has a 13% chance of being of a third color,
-    />
-```
-
 Blockies
 ========
 
-_this is the original readme of the project_
+_ contain strips from the original readme of the project_
 
 A tiny library for generating identicons for Ethereum addresses. These are not meant to replace user profiles, but as security icons, to allow the user to more easily check if an address he wants to interact with is the correct one. The symmetrical aspect of the icons allow our brain see [faces or objects](https://en.wikipedia.org/wiki/Pareidolia), making the icon more recognizable. This also contains the HQX library, for optionally creating not-so-blocky icons (see sample below).
+
+![Sample blockie image](download.png "Single Blockie")
 
 ![Sample blockies image](sample.png "Blockies")
 
@@ -52,6 +37,24 @@ var icon = blockies.create({ // All options are optional
 document.body.appendChild(icon); // icon is a canvas element
 ```
 
+## Usage
+
+```ts
+    import Blockies from 'blockies-vue'
+    // Without Props
+    <Blockies />
+    // With Props
+    <Blockies
+        :seed= 'randstring', // seed used to generate icon data, default: random
+        :color= '#dfe', // to manually specify the icon color, default: random
+        :bgcolor= '#aaa', // choose a different background color, default: random
+        :size= 15, // width/height of the icon in blocks, default: 8
+        :scale= 3, // width/height of each block in pixels, default: 4
+        :spotcolor= '#000' // each pixel has a 13% chance of being of a third color,
+    />
+```
+
+
 Notes
 -----
 
@@ -72,4 +75,4 @@ License
 [WTFPL](http://www.wtfpl.net/)
 
 
-Special thank to Alex Van de Sande for showing me blockies.
+Special thanks to Alex Van de Sande for showing me blockies.
