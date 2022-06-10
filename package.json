@@ -1,0 +1,30 @@
+{
+  "name": "vueblockies",
+  "version": "1.0.0",
+  "description": "A minimal library, that enables the usage of ethereum-blockies on vue.js",
+  "author": " Arthur F. Abeilice - afa7789",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*",
+    "src/VueBlockies.vue"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "ethereum",
+    "blockies",
+    "vue.js",
+    "vue"
+  ],
+  "peerDependencies": {
+    "vue": "^3"
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "rollup": "^2.75.6",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
