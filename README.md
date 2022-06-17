@@ -42,8 +42,31 @@ document.body.appendChild(icon); // icon is a canvas element
 
 ## Usage
 
-```ts
+Adding the plugin
+
+```
+    // vue3 
+    import { createApp } from 'vue'
+    import App from './App.vue'
     import Blockies from 'blockies-vue'
+
+    // In the future I'll change it, so it doesn't have to be used as plugin.
+    createApp(App).use(Blockies).mount('#app') 
+    
+    // nuxt3
+    // in the plugins folder at root create "blockies.client.js"
+    import Blockies from 'blockies-vue'
+
+    export default defineNuxtPlugin((nuxtApp) => {
+      nuxtApp.vueApp.use(Blockies)
+    })
+
+
+```
+
+Using the component
+
+```ts
     // Without Props
     <Blockies />
     // With Props
