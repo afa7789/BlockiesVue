@@ -11,9 +11,10 @@ _ contain strips from the original readme of the project_
 
 A tiny library for generating identicons for Ethereum addresses. These are not meant to replace user profiles, but as security icons, to allow the user to more easily check if an address he wants to interact with is the correct one. The symmetrical aspect of the icons allow our brain see [faces or objects](https://en.wikipedia.org/wiki/Pareidolia), making the icon more recognizable. This also contains the HQX library, for optionally creating not-so-blocky icons (see sample below).
 
-![Sample blockie image](download.png "Single Blockie")
+![Sample blockie image](https://raw.githubusercontent.com/afa7789/BlockiesVue/master/download.png "Single Blockie")
 
-![Sample blockies image](sample.png "Blockies")
+![Sample blockies image](https://raw.githubusercontent.com/afa7789/BlockiesVue/master/sample.png "Blockies")
+
 
 Check an example here [./example/example.vue](https://github.com/afa7789/BlockiesVue/blob/master/example/example.vue)
 
@@ -79,4 +80,4 @@ License
 
 Special thanks to Alex Van de Sande for showing me blockies.
 
-![Sample blockies image](banner.png "Banner")
+![Sample blockies image](https://raw.githubusercontent.com/afa7789/BlockiesVue/master/banner.png "Banner")
