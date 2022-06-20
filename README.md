@@ -18,7 +18,7 @@ A tiny library for generating identicons for Ethereum addresses. These are not m
 
 Check an example here [./example/example.vue](https://github.com/afa7789/BlockiesVue/blob/master/example/example.vue)
 
-[**Demo page**](http://download13.github.io/blockies/)
+[**Demo page**](http://afa7789.com/blockies-vue-demo)
 
 Use
 -----
